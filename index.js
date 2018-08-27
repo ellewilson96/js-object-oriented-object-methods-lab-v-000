@@ -9,10 +9,10 @@ function BoardMember (name, homeState, training) {
     return "You can do that!";
   };
   this.doCharity = function () {
-    return "I like to help people";
+    return "I like to help people.";
   };
   this.releasePressStatement = function () {
-    return console.log("You will see great things from Scuber.");
+    return "You will see great things from Scuber.";
   };
   this.sayHi = function () {
     return console.log("Hi, my name is {this.name}. I am from {this.homestate}, and I was trained in {this.training}");
